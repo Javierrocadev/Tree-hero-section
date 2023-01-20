@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans' , sans-serif;
+    box-sizing: border-box;
+    
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../pagina2/img/bonsai-6114252_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    height: 18vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content h2{
+    font-size: 35px;
+    letter-spacing: 1px;
+    color:  #B8CE62;
+}
+.content ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 20px;
+}
+.content ul li a{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #A3C392;
+    transition: .3s;
+}
+.content ul li a:hover{
+    color: #B8CE62;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #B8CE62;   
+}
+.main{
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+h1{
+    font-size: 45px;
+    margin: 20px 0px 20px;
+    color: #c15010;
+}
+h3{
+    color: #63371E;
+    font-size: 60px;
+    font-weight: 400;
+}
+.herobutton{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #A3C392;
+    transition: .3s;
+}
+.herobutton:hover{
+    color: #B8CE62;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #B8CE62;   
+}
+.sidebar{
+    position: absolute;
+    height: 340px;
+    width: 60px;
+    background-color: #fff;
+    border-radius: 10px;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px auto;
+}
+.text{
+    background-color: #c15010;
+    height: 100%;
+    min-height: 0px;
+    margin-right: 5px;
+    line-height: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 0 0 5px;
+    overflow: hidden;
+}
+.icon{
+    height: 100%;
+    min-width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.icon i{
+    color: #c15010;
+    font-size: 18px;
+    line-height: 50px;
+}
+.box:hover .icon{
+    background-color: #c15010;
+}
+.box:hover .icon i{
+    color: white;
+}
+.box:hover  .text{
+    min-width: 120px;
+}
